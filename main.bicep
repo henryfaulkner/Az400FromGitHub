@@ -1,4 +1,4 @@
-param storageName string = 'bigbiceps'
+param storageName string = 'bigbicepsfromgithub'
 param location string = resourceGroup().location
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
